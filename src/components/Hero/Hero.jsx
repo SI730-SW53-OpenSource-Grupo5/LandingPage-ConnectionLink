@@ -7,7 +7,7 @@ export const Hero = () => {
             <div className="py-44 sm:py-[230px] container-section font-poppins">
                 <div className="relative z-30 flex flex-col items-center justify-center text-center gap-8">
                     <h1 className="text-white text-6xl sm:text-7xl font-sans font-semibold tracking-wide">
-                        AidManager
+                        ConnectionLink
                     </h1>
                     <p className="text-slate-100 font-sans font-light tracking-wide text-2xl sm:text-3xl leading-normal md:leading-relaxed">
                         "Empowering Lives, Building Hope: Beneficient<br />Events that make a Difference"
