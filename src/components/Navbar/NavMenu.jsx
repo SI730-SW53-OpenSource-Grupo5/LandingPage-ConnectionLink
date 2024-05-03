@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Button } from "../Button/Button"
 import { NavLink } from "./NavLink"
 
@@ -26,7 +27,9 @@ export const NavMenu = ({ header, nav }) => {
                         />
                     )
                 }
-                <Button name="Get Started"/>
+                <Link to="/get-started">
+                    <Button name="Get Started" />
+                </Link>
             </ul>
         </div>
     )
