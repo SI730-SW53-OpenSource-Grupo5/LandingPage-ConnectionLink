@@ -1,5 +1,5 @@
 
-export const Button = ({ name }) => {
+export const Button = ({ name, onClick }) => {
 
     let buttonStyle = '';
 
@@ -7,11 +7,11 @@ export const Button = ({ name }) => {
     switch (name) {
         case 'Get Started':
             buttonStyle = `rounded-full font-medium text-white py-3.5 px-8 font-poppins 
-                tracking-wide bg-button`;
+                tracking-wide bg-button hover:bg-cyan-300 transition-all duration-300 ease`;
             break;
         case 'Our Team':
             buttonStyle = `text-xl rounded-full font-medium text-white py-4 px-8 font-poppins uppercase 
-                font-medium tracking-wider border-[1px] bg-transparent`;
+                font-medium tracking-wider border-[1px] bg-transparent hover:bg-blue-300 transition-all duration-300 ease`;
             break;
         case 'Suscribe':
             buttonStyle = `text-xl rounded-full font-medium text-white py-3 px-10 font-poppins uppercase 
@@ -19,7 +19,7 @@ export const Button = ({ name }) => {
             break;
         case 'Know More':
             buttonStyle = `text-xl rounded-full font-medium text-dark-green font-semibold py-4 px-8 
-                font-poppins uppercase font-medium tracking-wide border-[1px] bg-white`;
+                font-poppins uppercase font-medium tracking-wide border-[1px] bg-white hover:bg-blue-100 transition-all duration-300 ease`;
             break;
         case 'Choose Plan':
             buttonStyle = `rounded-lg font-medium text-white py-3 px-5 uppercase font-poppins 
@@ -28,7 +28,7 @@ export const Button = ({ name }) => {
     }
 
     return (
-        <button className={buttonStyle}
+        <button className={buttonStyle} onClick={onClick}
         >
             {name}
         </button>
