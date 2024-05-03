@@ -3,7 +3,7 @@ import phoneIcon from '../../assets/icon-phone.svg';
 
 export const Contact = () => {
     return (
-        <section className="bg-section py-20">
+        <section id='contact' className="bg-section py-20">
             <div className="container-section grid grid-rows-2 md:grid-rows-1 
                 grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="font-poppins flex flex-col gap-6 col">

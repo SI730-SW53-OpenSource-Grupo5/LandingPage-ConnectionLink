@@ -15,7 +15,7 @@ export const About = () => {
                     <div className='flex flex-row gap-3items-center justify-center'>
                         <a
                             style={{ position: "relative" }}
-                            href="/"
+                            href="#contact"
                             /* -underline effect- is a custom compoonent, go to index.css to see */
                             className="text-dark-green font-semibold text-xl inline-flex items-center 
                             gap-2 underline-effect after:bg-dark-green"
